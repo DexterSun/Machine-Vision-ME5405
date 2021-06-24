@@ -9,5 +9,5 @@ For running 'a_MV_final_code.m', one will get the results of all tasks, processe
 For running 'a_MV_app.m' in Matlab, one can have a friendly user interface, where the result of each step can be shown also on the user interface.
 
 ### Report:
-All parts of report are organised with L basically in class slides and the original algorithm paper.
+All parts of report are organised based on knowledge basically in class slides and the original algorithm paper.
 Thanks all the authors.
