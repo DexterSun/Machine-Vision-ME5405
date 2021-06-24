@@ -1,0 +1,84 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration file="C:\Users\Administrator\Desktop\machine vision最后代码 2\Machine_Version_Project.prj" location="C:\Users\Administrator\Desktop\machine vision最后代码 2" name="Machine_Version_Project" target="target.mlapps" target-name="打包为 App">
+    <param.appname>Machine_Version_Project</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\Administrator\AppData\Local\Temp\tpaadb0d40_5f11_4ef7_ae35_443f9ade406f.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>9d7b6ef0-be26-4fde-8558-a2aa79fd4549</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Machine_Version_Project.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\BFS_connectivity.m</file>
+      <file>${PROJECT_ROOT}\binarize.m</file>
+      <file>${PROJECT_ROOT}\c_number.m</file>
+      <file>${PROJECT_ROOT}\charact1.txt</file>
+      <file>${PROJECT_ROOT}\charact2.jpg</file>
+      <file>${PROJECT_ROOT}\classmethod.m</file>
+      <file>${PROJECT_ROOT}\getblocks.m</file>
+      <file>${PROJECT_ROOT}\guassianfilter.m</file>
+      <file>${PROJECT_ROOT}\Hild.m</file>
+      <file>${PROJECT_ROOT}\img_rotation1.m</file>
+      <file>${PROJECT_ROOT}\imsharp.m</file>
+      <file>${PROJECT_ROOT}\iregion.m</file>
+      <file>${PROJECT_ROOT}\Iterative.m</file>
+      <file>${PROJECT_ROOT}\Kittler.m</file>
+      <file>${PROJECT_ROOT}\Otsu.m</file>
+      <file>${PROJECT_ROOT}\quadtree.m</file>
+      <file>${PROJECT_ROOT}\RG.m</file>
+      <file>${PROJECT_ROOT}\sequence.m</file>
+      <file>${PROJECT_ROOT}\TWO_PASS.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\Administrator\Desktop" name="machine vision最后代码 2" optional="false">C:\Users\Administrator\Desktop\machine vision最后代码 2</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\Matlab</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
